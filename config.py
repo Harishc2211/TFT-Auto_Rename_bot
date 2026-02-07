@@ -22,8 +22,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","cluster1")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://harish221130_db_user:Dragonbot30042022@cluster1.odjv9us.mongodb.net/?appName=Cluster1")
     PORT = os.environ.get("PORT", "8050")
     OWNER = int(os.environ.get("OWNER", "5712866140"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
