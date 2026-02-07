@@ -5,34 +5,34 @@ id_pattern = re.compile(r'^.\d+$')
 
 
 # Fetch initial admin list
-ADMIN = []  # TemporLoad admins when the bot starts
+ADMIN = [5712866140]  # TemporLoad admins when the bot starts
 
-TOKEN_VERIFY=False
-API = environ.get("API", "5a7508a173d6462e4cd4b723766b92541c389a6b") # shortlink api
-URL = environ.get("URL", "arolinks.com") # shortlink domain without https://
+TOKEN_VERIFY=True
+API = environ.get("API", "61e449dafea5f160e00e7f690c42fa18e2f922eb") # shortlink api
+URL = environ.get("URL", "earnlinks.in") # shortlink domain without https://
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+Gt55OVP7VTAyNmNl") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "Ghjjjoooo_bot") # bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Dragonh_Bot") # bot username without @
 VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
-USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based on hours
+USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "6"))#enter time based on hours
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", " ")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", "22228941 ")
+    API_HASH  = os.environ.get("API_HASH", "b60a220688de40c23f6d9ee8d0735292")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","")     
     DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", ""))
+    OWNER = int(os.environ.get("OWNER", "5712866140"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
     
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "tech_freak_tamil").split(',')
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "Tamil_BlasterHD").split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
